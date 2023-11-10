@@ -18,6 +18,7 @@ form {
     margin-top: 5rem;
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
     justify-content: center;
 }
 form input {
@@ -62,4 +63,12 @@ form #search-btn:hover {
     font-weight: 500;
     line-height: 150%;
     font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    
+    .container {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
 }
