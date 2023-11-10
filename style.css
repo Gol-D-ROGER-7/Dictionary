@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@0,600;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection {
+    background-color: #000;
+    color: #fff;
+}
+body {
+    background: linear-gradient(90deg, rgba(12, 19, 59, 1) 2%, rgba(50, 211, 231, 1) 37%, rgba(235, 244, 241, 1) 64%, rgba(209, 224, 219, 1) 88%);
+}
+form {
+    margin-top: 5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+form input {
+    background: transparent;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+form #search-btn {
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid  black;
+    border-radius: 10px;
+    font-size: .8rem;
+    font-weight: 600;
+}
+form #search-btn:hover {
+    border: 2px solid #fff;
+    letter-spacing: .5px;
+    color: #0C133B;
+}
+.container {
+    margin-top: 4rem;
+    /* width: 25%; */
+    margin-right: 25%;
+    margin-left: 25%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container #searched-word {
+    font-family: Poppins;
+    font-size: 2rem;
+}
+.container #word-meaning {
+    font-family: 'Libre Baskerville';
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 1.2rem;
+}
